@@ -46,18 +46,16 @@
 <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-        <h1 class="logo me-auto"><a href="index.blade.php"><span>Koperasi</span></a></h1>
+        <h1 class="logo me-auto"><a href="{{url('/beranda')}}"><span>Koperasi</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.blade.php" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
-                <li><a href="index.blade.php" class="active">Beranda</a></li>
-                <li><a href="services.html">Tentang Kami</a></li>
-{{--                <li><a href="portfolio.html">Berita</a></li>--}}
-{{--                <li><a href="pricing.html">Pricing</a></li>--}}
-                <li><a href="blog.html">Berita</a></li>
-                <li><a href="contact.html">Kontak</a></li>
+                <li><a href="{{url('/beranda')}}" class="active">Beranda</a></li>
+                <li><a href="{{url('/tentang-kami')}}">Tentang Kami</a></li>
+                <li><a href="{{url('/berita')}}">Berita</a></li>
+                {{--                <li><a href="contact.blade.php">Kontak</a></li>--}}
 
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -83,11 +81,11 @@
             <div class="carousel-item active" style="background-image: url({{asset('assets/img/slide/slide-1.jpg')}});">
                 <div class="carousel-container">
                     <div class="carousel-content animate__animated animate__fadeInUp">
-                        <h2>Welcome to <span>Company</span></h2>
-                        <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut
-                            aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque
-                            accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                        <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+                        <h2>Selamat datang di Koperasi Maju Bersama</h2>
+                        <p>Mari bergabung dalam koperasi kami yang memberikan manfaat dan keuntungan untuk anggotanya.
+                            Kami percaya bahwa dengan bersatu, kita dapat mencapai tujuan bersama dan meningkatkan
+                            kesejahteraan bersama. Kebersamaan adalah kekuatan kita.</p>
+                        <div class="text-center"><a href="" class="btn-get-started">Baca Selengkapnya</a></div>
                     </div>
                 </div>
             </div>
@@ -96,11 +94,12 @@
             <div class="carousel-item" style="background-image: url({{asset('assets/img/slide/slide-2.jpg')}});">
                 <div class="carousel-container">
                     <div class="carousel-content animate__animated animate__fadeInUp">
-                        <h2>Lorem Ipsum Dolor</h2>
-                        <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut
-                            aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque
-                            accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                        <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+                        <h2>Berkembang Bersama Koperasi</h2>
+                        <p>Semangat kolaborasi dan gotong royong adalah landasan dari koperasi kami. Kami berkomitmen
+                            untuk memberikan layanan terbaik kepada anggota kami, karena kami percaya bahwa kebersamaan
+                            adalah kunci kesuksesan. Bersama-sama, kita dapat meraih kemakmuran dan pertumbuhan yang
+                            berkelanjutan.</p>
+                        <div class="text-center"><a href="" class="btn-get-started">Baca Selengkapnya</a></div>
                     </div>
                 </div>
             </div>
@@ -109,11 +108,12 @@
             <div class="carousel-item" style="background-image: url({{asset('assets/img/slide/slide-3.jpg')}});">
                 <div class="carousel-container">
                     <div class="carousel-content animate__animated animate__fadeInUp">
-                        <h2>Sequi ea ut et est quaerat</h2>
-                        <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut
-                            aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque
-                            accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                        <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+                        <h2>Bersama Koperasi, Wujudkan Aspirasi</h2>
+                        <p>Kami bertekad mewujudkan aspirasi anggota dengan semangat yang tak tergoyahkan. Melalui
+                            proses yang transparan dan keputusan bersama, kami merangkul nilai-nilai keadilan dan saling
+                            menghargai. Dengan demikian, setiap langkah yang diambil adalah langkah menuju kesuksesan
+                            kolektif.</p>
+                        <div class="text-center"><a href="" class="btn-get-started">Baca Selengkapnya</a></div>
                     </div>
                 </div>
             </div>
@@ -141,32 +141,31 @@
 
             <div class="row content">
                 <div class="col-lg-6" data-aos="fade-right">
-                    <h2>Eum ipsam laborum deleniti velitena</h2>
-                    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee
-                        trave</h3>
+                    <h2>Kolaborasi Menuju Kemajuan</h2>
+                    <h3>Kami di koperasi ini percaya bahwa dengan bekerja bersama-sama, kita dapat mencapai kemajuan
+                        yang luar biasa. Setiap anggota adalah bagian penting dari fondasi kesuksesan, dan kami
+                        berkomitmen untuk menyediakan lingkungan yang mendukung serta peluang yang adil bagi semua.</h3>
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
                     <p>
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                        in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum
+                        Kolaborasi Membentuk Koperasi yang Kuat
                     </p>
                     <ul>
-                        <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa
+                        <li><i class="ri-check-double-line"></i>
+                            Melalui kerjasama yang sinergis, kami menjalankan koperasi ini dengan sepenuh hati dan penuh
+                            dedikasi.
                         </li>
-                        <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate
-                            velit
+                        <li><i class="ri-check-double-line"></i>
+                            Setiap langkah yang diambil adalah langkah menuju kesuksesan yang lebih besar.
                         </li>
-                        <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in
+                        <li><i class="ri-check-double-line"></i> Kami percaya bahwa kerja keras dan tekad akan
+                            menghasilkan prestasi luar biasa.
                         </li>
                     </ul>
                     <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore
-                        magna aliqua.
+                        Kami berkomitmen untuk memberikan layanan terbaik kepada anggota kami. Dengan semangat penuh,
+                        kami mengambil inspirasi dari nilai-nilai koperasi untuk menciptakan lingkungan yang inklusif
+                        dan bermanfaat bagi semua.
                     </p>
                 </div>
             </div>
@@ -188,8 +187,8 @@
                             </svg>
                             <i class="bx bxl-dribbble"></i>
                         </div>
-                        <h4><a href="">Lorem Ipsum</a></h4>
-                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                        <h4><a href="">Simpan Pinjam</a></h4>
+                        <p>Simpan uang dan dapatkan akses pinjaman dengan bunga rendah.</p>
                     </div>
                 </div>
 
@@ -203,8 +202,8 @@
                             </svg>
                             <i class="bx bx-file"></i>
                         </div>
-                        <h4><a href="">Sed Perspiciatis</a></h4>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                        <h4><a href="">Pendampingan Usaha</a></h4>
+                        <p>Dapatkan bimbingan untuk mengembangkan usaha Anda.</p>
                     </div>
                 </div>
 
@@ -218,8 +217,8 @@
                             </svg>
                             <i class="bx bx-tachometer"></i>
                         </div>
-                        <h4><a href="">Magni Dolores</a></h4>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                        <h4><a href="">Pengembangan Komunitas</a></h4>
+                        <p>Nikmati harga lebih murah lewat pembelian bersama.</p>
                     </div>
                 </div>
 
@@ -232,8 +231,9 @@
                             </svg>
                             <i class="bx bx-layer"></i>
                         </div>
-                        <h4><a href="">Nemo Enim</a></h4>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                        <h4><a href="">Pemberdayaan Ekonomi</a></h4>
+                        <p>Koperasi sering berperan sebagai pusat pengembangan komunitas, membantu anggotanya dalam
+                            berbagai aspek kehidupan.</p>
                     </div>
                 </div>
 
@@ -246,8 +246,9 @@
                             </svg>
                             <i class="bx bx-slideshow"></i>
                         </div>
-                        <h4><a href="">Dele Cardo</a></h4>
-                        <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                        <h4><a href="">Investasi dan Dividen</a></h4>
+                        <p> Anggota koperasi sering memiliki kesempatan untuk berinvestasi dalam koperasi dan menerima
+                            dividen dari keuntungan koperasi.</p>
                     </div>
                 </div>
 
@@ -260,8 +261,9 @@
                             </svg>
                             <i class="bx bx-arch"></i>
                         </div>
-                        <h4><a href="">Divera Don</a></h4>
-                        <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                        <h4><a href="">Akses Pembiayaan</a></h4>
+                        <p>Koperasi bisa membantu anggotanya untuk mendapatkan akses ke pembiayaan atau kredit dengan
+                            syarat-syarat yang lebih baik</p>
                     </div>
                 </div>
 
@@ -399,7 +401,7 @@
 
 {{--        </div>--}}
 {{--    </section>--}}
-    <!-- End Portfolio Section -->
+<!-- End Portfolio Section -->
 
     <!-- ======= Our Clients Section ======= -->
     <section id="clients" class="clients">
@@ -462,7 +464,8 @@
             </div>
 
         </div>
-    </section><!-- End Our Clients Section -->
+    </section>
+    <!-- End Our Clients Section -->
 
 </main><!-- End #main -->
 
@@ -495,16 +498,16 @@
                     </ul>
                 </div>
 
-{{--                <div class="col-lg-3 col-md-6 footer-links">--}}
-{{--                    <h4>Our Services</h4>--}}
-{{--                    <ul>--}}
-{{--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>--}}
-{{--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>--}}
-{{--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>--}}
-{{--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>--}}
-{{--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>--}}
-{{--                    </ul>--}}
-{{--                </div>--}}
+                {{--                <div class="col-lg-3 col-md-6 footer-links">--}}
+                {{--                    <h4>Our Services</h4>--}}
+                {{--                    <ul>--}}
+                {{--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>--}}
+                {{--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>--}}
+                {{--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>--}}
+                {{--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>--}}
+                {{--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>--}}
+                {{--                    </ul>--}}
+                {{--                </div>--}}
 
                 <div class="col-lg-4 col-md-6 footer-newsletter">
                     <h4>Join Our Newsletter</h4>
@@ -540,7 +543,8 @@
             <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
     </div>
-</footer><!-- End Footer -->
+</footer>
+<!-- End Footer -->
 
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
         class="bi bi-arrow-up-short"></i></a>
