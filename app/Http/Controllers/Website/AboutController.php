@@ -12,7 +12,8 @@ class AboutController extends Controller
      */
     public function index()
     {
-        return view('website.about');
+        $data = ['path' => request()->path()];
+        return view('website.about',$data);
     }
 
     /**
