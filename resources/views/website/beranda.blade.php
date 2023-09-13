@@ -15,7 +15,7 @@
                                 anggotanya.
                                 Kami percaya bahwa dengan bersatu, kita dapat mencapai tujuan bersama dan meningkatkan
                                 kesejahteraan bersama. Kebersamaan adalah kekuatan kita.</p>
-                            <div class="text-center"><a href="" class="btn-get-started">Baca Selengkapnya</a></div>
+{{--                            <div class="text-center"><a href="" class="btn-get-started">Baca Selengkapnya</a></div>--}}
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,7 @@
                                 kebersamaan
                                 adalah kunci kesuksesan. Bersama-sama, kita dapat meraih kemakmuran dan pertumbuhan yang
                                 berkelanjutan.</p>
-                            <div class="text-center"><a href="" class="btn-get-started">Baca Selengkapnya</a></div>
+{{--                            <div class="text-center"><a href="" class="btn-get-started">Baca Selengkapnya</a></div>--}}
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                                 menghargai. Dengan demikian, setiap langkah yang diambil adalah langkah menuju
                                 kesuksesan
                                 kolektif.</p>
-                            <div class="text-center"><a href="" class="btn-get-started">Baca Selengkapnya</a></div>
+{{--                            <div class="text-center"><a href="" class="btn-get-started">Baca Selengkapnya</a></div>--}}
                         </div>
                     </div>
                 </div>
