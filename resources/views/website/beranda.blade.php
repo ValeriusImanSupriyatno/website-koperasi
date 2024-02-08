@@ -7,7 +7,7 @@
 
                 <!-- Slide 1 -->
                 <div class="carousel-item active"
-                     style="background-image: url({{asset('assets/img/slide/slide-1.jpg')}});">
+                     style="background-image: url({{asset('assets/img/foto/1.jpeg')}});">
                     <div class="carousel-container">
                         <div class="carousel-content animate__animated animate__fadeInUp">
                             <h2>Selamat datang di Koperasi Konsumen - MBS</h2>
@@ -21,7 +21,7 @@
                 </div>
 
                 <!-- Slide 2 -->
-                <div class="carousel-item" style="background-image: url({{asset('assets/img/slide/slide-2.jpg')}});">
+                <div class="carousel-item" style="background-image: url({{asset('assets/img/foto/4.jpeg')}});">
                     <div class="carousel-container">
                         <div class="carousel-content animate__animated animate__fadeInUp">
                             <h2>Berkembang Bersama Koperasi</h2>
@@ -37,7 +37,7 @@
                 </div>
 
                 <!-- Slide 3 -->
-                <div class="carousel-item" style="background-image: url({{asset('assets/img/slide/slide-3.jpg')}});">
+                <div class="carousel-item" style="background-image: url({{asset('assets/img/foto/9.jpeg')}});">
                     <div class="carousel-container">
                         <div class="carousel-content animate__animated animate__fadeInUp">
                             <h2>Bersama Koperasi, Wujudkan Aspirasi</h2>
