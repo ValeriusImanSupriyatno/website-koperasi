@@ -57,7 +57,10 @@
                 <li><a href="{{url('/tentang-kami')}}" class="{{$path ==='tentang-kami' ? 'active' : ''}}">Tentang
                         Kami</a>
                 </li>
-{{--                <li><a href="{{url('/berita')}}">Berita</a></li>--}}
+{{--                <li>--}}
+{{--                    <a href="{{url('/dokumentasi')}}" class="{{$path ==='dokumentasi' ? 'active' : ''}}">Dokumentasi</a>--}}
+{{--                </li>--}}
+                {{--                <li><a href="{{url('/berita')}}">Berita</a></li>--}}
 
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -108,7 +111,8 @@
                     <ul>
                         <li><i class="bx bx-chevron-right"></i> <a href="{{url('/beranda')}}">Beranda</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="{{url('/tentang-kami')}}">Tentang Kami</a></li>
-{{--                        <li><i class="bx bx-chevron-right"></i> <a href="{{url('/berita')}}">Berita</a></li>--}}
+{{--                        <li><i class="bx bx-chevron-right"></i> <a href="{{url('/dokumentasi')}}">Dokumentasi</a></li>--}}
+                        {{--                        <li><i class="bx bx-chevron-right"></i> <a href="{{url('/berita')}}">Berita</a></li>--}}
                         {{--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Kontak</a></li>--}}
                     </ul>
                 </div>
@@ -131,13 +135,13 @@
             <div class="copyright">
                 &copy; Copyright <strong><span>Koperasi Konsumen Maju Bersama Sidodadi [ KK-MBS]</span></strong>.
             </div>
-{{--            <div class="credits">--}}
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/company-free-html-bootstrap-template/ -->
-{{--                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>--}}
-{{--            </div>--}}
+            {{--            <div class="credits">--}}
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/company-free-html-bootstrap-template/ -->
+            {{--                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>--}}
+            {{--            </div>--}}
         </div>
         <div class="social-links text-center text-md-right pt-3 pt-md-0">
             <a href="https://m.facebook.com/profile.php?id=61550068106210&mibextid=ZbWKwL" class="facebook"><i
